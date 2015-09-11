@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Javascript Test 1</title>
+</head>
+<body>
+
+
+
+	<button id="button1" type "button" onClick="writeMyName()">Write My Name</button>
+	
+
+	<ul id="list"></ul>
+
+
+
+
+	<script type="text/javascript">
+		function writeMyName() {
+			document.getElementById("button1").innerHTML = "Andrew!!!";
+			var ul = document.getElementById("list");
+			var li = document.createElement("li");
+			li.appendChild(document.createTextNode("...and again!"));
+			ul.appendChild(li);
+		}
+
+
+	</script>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+	<h1>Some Javascript!</h1>
+	<p>Welcome ot front-end scripting</p>
+
+	<p id="demo" style="color:red"></p>
+
+	<script type="text/javascript">
+		window.alert(5 + 5);
+		document.getElementById("demo").innerHTML = 5 + 6;
+		console.log(5 + 7);
+	</script>
+
+	<p>Hint, the missing number is in the console...</p> -->
